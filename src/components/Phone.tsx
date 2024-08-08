@@ -12,7 +12,7 @@ return (<div className={cn('relative pointer-events-none z-50 overflow-hidden', 
 
 >
 
-    <img src={dark!=false? 'phone-template-dark-edges.png':'phone-template-white-edges.png'} alt="" className="pointer-events-none z-50 select-none" />
+    <img src={dark? 'phone-template-dark-edges.png':'phone-template-white-edges.png'} alt="" className="pointer-events-none z-50 select-none" />
     <div className="absolute -z-10 inset-0" >
         <img src={imgSrc} alt="overlaying phone image" className="object-cover" /> </div>
 </div>
